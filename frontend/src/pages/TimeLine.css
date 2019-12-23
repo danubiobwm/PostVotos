@@ -1,0 +1,30 @@
+.timeline-wrapper {
+  width: 600px;
+  margin: 50px auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.timeline-wrapper form {
+  width: 100%;
+  background: #b2b5b6;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.timeline-wrapper form textarea {
+  border: 3px solid #c8c9ca;;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px;
+  width: 96%;
+  resize: none;
+}
+
+.post-list {
+  list-style: none;
+  color: #1c2022;
+}
